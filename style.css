@@ -1,0 +1,69 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+}
+#headerEmoji {
+    font-size: 80px;
+}
+#headerTekst {
+
+    text-transform: uppercase;
+    font-size: 80px;
+    font-weight: bold;
+}
+.innholdProsjekter {
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    color: #E58A4F;
+    font-size: 27px;
+    font-weight: bold;
+    height: 77px;
+    width: 442px;
+    border: 2px solid #E58A4F;
+    border-radius: 2px;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.16) ;
+}
+.innholdProsjekterTekst {
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.lenker {
+    display: flex;
+    justify-content: center;
+    color: #4A5AE5;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+}
+.lenke {
+    border: 2px solid #4A5AE5;
+    height: 100px;
+    width: 180px;
+    border-radius: 2px;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.16) ;
+    position: relative;
+    margin: 21px;
+}
+.lenkeTekst {
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+hr {
+    color: #707070;
+    width: 900px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
