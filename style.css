@@ -21,6 +21,7 @@ a {
     font-size: 40px;
     font-weight: bold;
     color: #F0FFF8;
+    z-index: 10;
 }
 .innholdProsjekter {
     margin: 0 auto;
@@ -99,7 +100,18 @@ hr {
     height: 100%;
 }
 
+@media only screen and (max-width: 900px){
+    .lenker {
+        font-size: 15px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
 @media only screen and (max-width: 600px){
+    body {
+        overflow: scroll;
+    }
     hr {
         width: 300px;
     }
