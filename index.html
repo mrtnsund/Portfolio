@@ -12,40 +12,49 @@
 </head>
 
 <body>
+    <div id="particles-js">
+    </div>
+
     <div class="header">
-        <p id="headerEmoji">👨🏻‍💻</p>
+
         <p id="headerTekst">Morten Sund</p>
     </div>
     <div class="innhold">
         <a href="projects.html">
-        <div class="innholdProsjekter">
-            <p class="innholdProsjekterTekst">PROSJEKTER</p>
-            
-        </div>
+            <div class="innholdProsjekter">
+                <p class="innholdProsjekterTekst">PROSJEKTER</p>
+
+            </div>
         </a>
     </div>
     <hr>
     <div class="lenker">
         <a href="https://github.com/mrtnsund" target="_blank">
-        <div class="lenke">
-            <p class="lenkeTekst">GitHub</p>
-        </div>
+            <div class="lenke">
+                <p class="lenkeTekst">GitHub</p>
+            </div>
         </a>
         <a href="https://www.linkedin.com/in/morten-sund-930873116/" target="_blank">
-        <div class="lenke">
-            <p class="lenkeTekst">LinkedIn</p>
-        </div>
+            <div class="lenke">
+                <p class="lenkeTekst">LinkedIn</p>
+            </div>
         </a>
-    
+
         <div class="lenke">
             <p class="lenkeTekst">Notater</p>
         </div>
         <a href="mailto:mrtnsund@gmail.com">
-        <div class="lenke">
-            <p class="lenkeTekst">Kontakt</p>
-        </div>
+            <div class="lenke">
+                <p class="lenkeTekst">Kontakt</p>
+            </div>
         </a>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS.load('particles-js', 'particles.json', function () {
+            console.log('particles.json loaded');
+        });
+    </script>
 </body>
 
 </html>
