@@ -33,7 +33,7 @@ a {
     height: 65px;
     width: 20%;
     border: 2px solid #E58A4F;
-    border-radius: 1px;
+    border-radius: 3px;
     box-shadow: 0px 3px 6px rgba(0,0,0,0.16) ;
     background-color: #171F36;
     box-sizing: border-box;
@@ -62,17 +62,17 @@ a {
 .lenke {
     box-sizing: border-box;
 
-    border: 2px solid rgb(48, 50, 65);
+    border: 2px solid white;
     height: 60px;
     width: 150px;
     background-color: #F0FFF8;
-    border-radius: 1px;
+    border-radius: 5px;
     box-shadow: 0px 3px 6px rgba(0,0,0,0.16) ;
     position: relative;
     margin: 21px;
 }
 .lenke:hover{
-    border: 7px solid rgb(48, 50, 65);
+    border: 5px solid rgb(179, 179, 179);
     transition: border 0.3s;
 }
 .lenke i {
@@ -86,6 +86,9 @@ a {
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+.lenkeTekst i {
+    font-size: 15px;
 }
 hr {
     color: #707070;
