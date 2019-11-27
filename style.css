@@ -126,6 +126,7 @@ hr {
     }
     #headerTekst {
         font-size: 35px;
+        padding-top: 0px;
     }
     .lenker {
         font-size: 15px;
