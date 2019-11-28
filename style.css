@@ -41,7 +41,7 @@ a {
 .innholdProsjekter:hover {
     border: 3px solid white;
     color: white;
-    transition: border 0.5s, color 0.5s;
+    transition: border 0.2s, color 0.2s;
 }
 .innholdProsjekterTekst {
     position: absolute;
