@@ -4,7 +4,7 @@ import { generateProjectPage } from "./prosjekt.js";
 import "particles.js";
 import { generateProjectPage as project } from "./prosjekt.js";
 
-particlesJS.load('particles-js', '/assets/particles.json', function () {
+particlesJS.load('particles-js', 'assets/particles.json', function () {
 });
 const content = document.getElementById("content");
 
