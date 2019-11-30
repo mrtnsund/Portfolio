@@ -1,3 +1,4 @@
+import { generateProjectPage } from "./prosjekt";
 
 const generateProsjektKnapp = () => {
     const prosjektKnapp = document.createElement("div");
@@ -73,8 +74,10 @@ const generateHomePage = () => {
         content.removeChild(content.lastChild);
     }
     const prosjektKnapp = generateProsjektKnapp();
-    prosjektKnapp.addEventListener("click", generateProsjektKnapp);
+    prosjektKnapp.addEventListener("click", generateProjectPage);
 
+    const tilbakeKnapp = document.getElementById("back");
+    content.removeChild(tilbakeKnapp);
     content.appendChild(prosjektKnapp);
     content.appendChild(generateStrek());
     content.appendChild(generateLenker());
