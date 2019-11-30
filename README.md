@@ -1,3 +1,0 @@
-# Portfolio
-
-https://mrtnsund.dev/
