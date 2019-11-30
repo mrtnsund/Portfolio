@@ -15,6 +15,7 @@ const generateParticles = () => {
 }
 const generateHeader = () => {
     const header = document.createElement("div");
+    header.id = "header";
     const headerTekst = document.createElement("p");
     headerTekst.id = "headerTekst";
     headerTekst.innerHTML = "Morten Sund";

@@ -67,8 +67,20 @@ const generateLenker = () => {
 
     return lenker;
 }
+const generateHomePage = () => {
+    const content = document.getElementById("content");
+    while (content.childNodes.length > 4){
+        content.removeChild(content.lastChild);
+    }
+    const prosjektKnapp = generateProsjektKnapp();
+    prosjektKnapp.addEventListener("click", generateProsjektKnapp);
+
+    content.appendChild(prosjektKnapp);
+    content.appendChild(generateStrek());
+    content.appendChild(generateLenker());
+}
 
 
 export {
-    generateProsjektKnapp, generateStrek, generateLenker
+    generateProsjektKnapp, generateStrek, generateLenker, generateHomePage
 }
