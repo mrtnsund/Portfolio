@@ -5,6 +5,8 @@ const generateProjectPage = () => {
     while (content.childNodes.length > 3){
         content.removeChild(content.lastChild);
     }
+    document.getElementById("headerTekst").innerHTML="Prosjekter";
+
     const back = document.createElement("div");
     back.classList.add("back");
     back.id = "back";
