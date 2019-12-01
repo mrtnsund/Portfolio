@@ -77,6 +77,7 @@ const generateHomePage = () => {
     prosjektKnapp.addEventListener("click", generateProjectPage);
 
     const tilbakeKnapp = document.getElementById("back");
+    document.getElementById("headerTekst").innerHTML = "MORTEN SUND";
     content.removeChild(tilbakeKnapp);
     content.appendChild(prosjektKnapp);
     content.appendChild(generateStrek());
