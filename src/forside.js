@@ -30,10 +30,10 @@ const generateLenker = () => {
 
     const github = document.createElement("a");
     github.href = "https://github.com/mrtnsund";
-    github.style.target = "_blank";
+    github.setAttribute("target", "_blank");
     const linkedin = document.createElement("a");
     linkedin.href = "https://www.linkedin.com/in/morten-sund-930873116/";
-    linkedin.style.target = "_blank";
+    linkedin.setAttribute("target", "_blank");
     const mail = document.createElement("a");
     mail.href = "mailto:mrtnsund@gmail.com";
 
@@ -57,7 +57,7 @@ const generateLenker = () => {
     mailLenke.classList.add("lenke");
     const mailLenkeTekst = document.createElement("p");
     mailLenkeTekst.classList.add("lenkeTekst");
-    mailLenkeTekst.innerHTML = "GitHub";
+    mailLenkeTekst.innerHTML = "Kontakt";
     mailLenke.appendChild(mailLenkeTekst);
     mail.appendChild(mailLenke);
 
