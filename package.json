@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "particles.js": "^2.0.0",
+    "serialize-javascript": "^2.1.2",
     "swup": "^2.0.8"
   }
 }
